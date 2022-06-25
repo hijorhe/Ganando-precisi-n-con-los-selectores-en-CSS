@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ganando precisión con los selectores en CSS</title>
+    <link rel="stylesheet" href="estiloejercicio.css">
+</head>
+<body>
+    <div class="encabezado">
+    <h1 id="titulo">Lista de la compra</h1>
+    </div>
+    <div>
+        <ul>
+            <li class="css-1">elemento-1</li>
+            <li>elemento-2</li>
+            <li>elemento-3</li>
+            <li>elemento-4</li>
+            <li>elemento-5</li>
+        </ul>
+    </div>
+    <div>
+        <ol>
+            <li class="css-1">elemento-1</li>
+            <li>elemento-2</li>
+            <li>elemento-3</li>
+            <li>elemento-4</li>
+            <li>elemento-5</li>
+        </ol>
+    </div>
+</body>
+</html>
+
+
+.css-1{
+    color: red;
+    font-size: 2rem;
+}
